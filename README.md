@@ -35,7 +35,7 @@ Results
 The results of these test cases can be used to evaluate the performance of different face recognition systems in the context of eKYC applications. The results can be used to identify the strengths and weaknesses of different systems, and to guide the development of new systems that are more accurate, robust, and efficient.
 
 Contributors
-This repository was created by [Your Name] and [Co-author Name], and is open to contributions from the community. If you would like to contribute, please submit a pull request or contact [Your Name] for more information.
+This repository was created by Nathan and Mr. Tee Gee, and is open to contributions from the community. If you would like to contribute, please submit a pull request or contact nathan for more information.
 
 
 
