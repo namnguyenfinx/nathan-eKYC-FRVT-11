@@ -1,34 +1,41 @@
 FRVT 1:1 eKYC Test Cases
-This repository contains a list of test cases for the FRVT 1:1 eKYC benchmark. The purpose of these test cases is to provide a standardized set of scenarios to evaluate the performance of eKYC systems in real-world situations.
+This repository contains a set of test cases for evaluating the performance of face recognition systems in the context of eKYC (electronic know your customer) applications. These test cases cover various scenarios and challenges commonly encountered in real-world eKYC applications.
 
+Purpose
+The purpose of these test cases is to evaluate the performance of face recognition systems in the context of eKYC applications. The test cases cover various scenarios and challenges commonly encountered in real-world eKYC applications, and are designed to evaluate the accuracy, speed, and robustness of face recognition systems.
+
+Usage
+To use these test cases, follow these steps:
+
+Clone this repository to your local machine.
+Install the necessary dependencies (OpenCV, NumPy, etc.).
+Run the test cases using a face recognition system of your choice.
 Test Cases
-The test cases cover a range of scenarios, including:
+The test cases are divided into several categories, each covering a different aspect of face recognition performance in the context of eKYC applications. The categories are as follows:
 
-Basic enrollment: A new user enrolls in the system using a government-issued ID.
-Identity verification: An existing user verifies their identity using their enrolled biometric data and government-issued ID.
-Remote onboarding: A new user enrolls in the system remotely, without being physically present at a bank branch.
-Biometric authentication: An existing user logs into the system using their enrolled biometric data.
-Cross-device authentication: An existing user logs into the system using a different device than they enrolled with.
-Cross-channel authentication: An existing user logs into the system using a different channel than they enrolled with (e.g. mobile app vs web browser).
-Enrollment with expired ID: A new user attempts to enroll in the system using an expired government-issued ID.
-Enrollment with fake ID: A new user attempts to enroll in the system using a fake government-issued ID.
-Identity verification with incorrect ID: An existing user attempts to verify their identity using an incorrect government-issued ID.
-Identity verification with incorrect biometric data: An existing user attempts to verify their identity using incorrect biometric data.
-Identity verification with fake ID: An existing user attempts to verify their identity using a fake government-issued ID.
-Remote onboarding with expired ID: A new user attempts to enroll in the system remotely using an expired government-issued ID.
-Remote onboarding with fake ID: A new user attempts to enroll in the system remotely using a fake government-issued ID.
-Biometric authentication with incorrect data: An existing user attempts to authenticate using incorrect biometric data.
-Biometric authentication with different body position: An existing user attempts to authenticate using different body position than enrolled.
-Biometric authentication with glasses: An existing user attempts to authenticate while wearing glasses.
-Biometric authentication with different lighting: An existing user attempts to authenticate under different lighting conditions than enrolled.
-Cross-device authentication with different camera: An existing user attempts to authenticate using a different camera than they enrolled with.
-Cross-device authentication with different resolution: An existing user attempts to authenticate using a different camera resolution than they enrolled with.
-Cross-channel authentication with different network: An existing user attempts to authenticate using a different network than they enrolled with.
-Cross-channel authentication with different browser: An existing user attempts to authenticate using a different browser than they enrolled with.
-Biometric authentication with altered biometric data: An existing user attempts to authenticate using altered biometric data.
-Identity verification with altered ID: An existing user attempts to verify their identity using an altered government-issued ID.
-Biometric authentication with deepfakes: An existing user attempts to authenticate using a deepfake biometric data.
-Enrollment with incomplete data: A new user attempts to enroll in the system with incomplete data.
-Identity verification with incomplete data: An existing user attempts to verify their identity with incomplete data.
-Enrollment with low-quality data: A new user attempts to enroll in the system with low-quality biometric data.
-Identity verification with low-quality data: An existing user attempts to verify their identity with low-quality biometric data.
+1. Illumination Variation
+These test cases evaluate the performance of face recognition systems in varying illumination conditions. The test cases include images taken under different lighting conditions (bright, dim, and mixed lighting), and evaluate the accuracy and robustness of face recognition systems in these conditions.
+
+2. Pose Variation
+These test cases evaluate the performance of face recognition systems in varying pose conditions. The test cases include images taken from different angles and perspectives (frontal, 45 degrees, and profile), and evaluate the accuracy and robustness of face recognition systems in these conditions.
+
+3. Expression Variation
+These test cases evaluate the performance of face recognition systems in varying expression conditions. The test cases include images taken with different facial expressions (neutral, smiling, and frowning), and evaluate the accuracy and robustness of face recognition systems in these conditions.
+
+4. Occlusion Variation
+These test cases evaluate the performance of face recognition systems in varying occlusion conditions. The test cases include images taken with different types of occlusion (glasses, hats, and masks), and evaluate the accuracy and robustness of face recognition systems in these conditions.
+
+5. Age Variation
+These test cases evaluate the performance of face recognition systems in varying age conditions. The test cases include images of people of different ages (children, adults, and seniors), and evaluate the accuracy and robustness of face recognition systems in these conditions.
+
+6. Ethnicity Variation
+These test cases evaluate the performance of face recognition systems in varying ethnicity conditions. The test cases include images of people from different ethnic backgrounds, and evaluate the accuracy and robustness of face recognition systems in these conditions.
+
+Results
+The results of these test cases can be used to evaluate the performance of different face recognition systems in the context of eKYC applications. The results can be used to identify the strengths and weaknesses of different systems, and to guide the development of new systems that are more accurate, robust, and efficient.
+
+Contributors
+This repository was created by [Your Name] and [Co-author Name], and is open to contributions from the community. If you would like to contribute, please submit a pull request or contact [Your Name] for more information.
+
+
+
